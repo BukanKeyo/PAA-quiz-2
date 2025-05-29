@@ -17,7 +17,7 @@ def run_game(level_code):
 def exit_confirmation():
     while True:
         EXIT_CONFIRMATION_MOUSE_POS = pygame.mouse.get_pos()
-        pygame.display.set_caption("About")
+        pygame.display.set_caption("Exit")
         
         FILL = pygame.image.load("asset/exit_confirmation.png")
 

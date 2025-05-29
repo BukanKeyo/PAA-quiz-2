@@ -1,3 +1,9 @@
+| Name           | NRP        | 
+| ---            | ---        | 
+| Jesse Robinson Junior Simanjuntak | 5025221024 | 
+| Putri Meyliya Rahmawati | 5025221062 | 
+| Allen Keyo Handika | 5025221298 | 
+
 # ROBIN SAVES THE CAT - GAME
 
 ### 📦 Installation
@@ -34,4 +40,4 @@ Make sure you are in the same directory as main.py when running the command.
 ![Screenshot 2025-05-29 172747](https://github.com/user-attachments/assets/f9e94174-d1fa-4fd1-94f5-6c2ae607d49f)
 
 #### Exit
-![Screenshot 2025-05-29 173014](https://github.com/user-attachments/assets/b9e87461-fb5a-485c-9962-e898f35cedc1)
+![image](https://github.com/user-attachments/assets/d4b90f12-311a-4061-bc73-16138a7d777b)

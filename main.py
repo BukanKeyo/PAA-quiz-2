@@ -5,9 +5,7 @@ import os
 import random
 
 pygame.init()
-
 SCREEN = pygame.display.set_mode((928, 672))
-
 BG = pygame.image.load("asset/main_menu.png")
     
 def run_game(level_code):
@@ -17,9 +15,7 @@ def exit_confirmation():
     while True:
         EXIT_CONFIRMATION_MOUSE_POS = pygame.mouse.get_pos()
         pygame.display.set_caption("Are you sure you want to exit?")
-        
         FILL = pygame.image.load("asset/exit_confirmation.png")
-
         SCREEN.blit(FILL, (0, 0))
         
         EXIT_NO = Button(image=pygame.image.load("asset/no_button.png"), pos=(550, 400))

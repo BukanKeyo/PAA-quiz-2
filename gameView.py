@@ -28,8 +28,8 @@ class Player(object):
         self._player_rect = pygame.Rect(self.x, self.y, self.resized.get_width(), self.resized.get_height())
         self._player_rect.center = (self.x, self.y)
  
-class Enemy(object):
-    #Initialize Monsters
+class Cat(object):
+    #Initialize Cat
     def __init__(self):
         self.end_rect = pygame.image.load("asset/kucing.png").convert_alpha()
         self.resized = pygame.transform.scale(self.end_rect, (34, 38))
@@ -154,7 +154,7 @@ Roads = []
 Poss = []
 Route = []
 player = Player() # Create the player
-enemy = Enemy()
+cat = Cat()
  
 # Holds the level layout in a list of strings.
 level = [
@@ -243,7 +243,7 @@ finding_shortest.printG() #print graph
 running = True
 while running:
     
-    clock.tick(60)
+    clock.tick(360)
     
     for e in pygame.event.get():
         if e.type == pygame.QUIT:
@@ -314,9 +314,9 @@ while running:
             lose_page()
  
     maskP = pygame.mask.from_surface(player.resized)
-    maskE = pygame.mask.from_surface(enemy.resized)
+    maskE = pygame.mask.from_surface(cat.resized)
     
-    offset = (enemy.x - player.x, enemy.y - player.y)
+    offset = (cat.x - player.x, cat.y - player.y)
     if maskP.overlap(maskE, offset):
         win_page()
             
@@ -327,7 +327,7 @@ while running:
          screen.blit(road.resized, (road.x, road.y))
     for Pos in Poss:
          screen.blit(Pos.resized, (Pos.x, Pos.y))
-    screen.blit(enemy.resized, (enemy.x, enemy.y))
+    screen.blit(cat.resized, (cat.x, cat.y))
     screen.blit(player.resized, (player.x, player.y))
     
     pygame.display.flip()

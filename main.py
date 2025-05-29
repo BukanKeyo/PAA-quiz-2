@@ -7,7 +7,6 @@ import random
 pygame.init()
 
 SCREEN = pygame.display.set_mode((928, 672))
-pygame.display.set_caption("Menu")
 
 BG = pygame.image.load("asset/main_menu.png")
     
@@ -17,7 +16,7 @@ def run_game(level_code):
 def exit_confirmation():
     while True:
         EXIT_CONFIRMATION_MOUSE_POS = pygame.mouse.get_pos()
-        pygame.display.set_caption("Exit")
+        pygame.display.set_caption("Are you sure you want to exit?")
         
         FILL = pygame.image.load("asset/exit_confirmation.png")
 
@@ -44,6 +43,7 @@ def exit_confirmation():
 
 def main_menu():
     while True:
+        pygame.display.set_caption("Menu")
         SCREEN.blit(BG, (0, 0))
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()

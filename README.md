@@ -21,3 +21,17 @@ A new window will open and the game will start. Enjoy playing!
 Make sure you are in the same directory as main.py when running the command.
 
 ## Result
+#### Main Menu
+![Screenshot 2025-05-29 172156](https://github.com/user-attachments/assets/ba8f4c2e-0bd6-4802-914b-12384d856ef9)
+
+#### Game Level
+![Screenshot 2025-05-29 172438](https://github.com/user-attachments/assets/9445549a-a36d-4ded-96dd-50506106e2f8)
+
+#### Game Over
+![Screenshot 2025-05-29 172620](https://github.com/user-attachments/assets/89236ec1-9008-4482-ab2b-5dbf67c68e42)
+
+#### Win
+![Screenshot 2025-05-29 172747](https://github.com/user-attachments/assets/f9e94174-d1fa-4fd1-94f5-6c2ae607d49f)
+
+#### Exit
+![Screenshot 2025-05-29 173014](https://github.com/user-attachments/assets/b9e87461-fb5a-485c-9962-e898f35cedc1)

@@ -145,7 +145,7 @@ os.environ["SDL_VIDEO_CENTERED"] = "1"
 pygame.init()
  
 # Set up the display
-pygame.display.set_caption("Try to Catch the Monster with Shortest Path!")
+pygame.display.set_caption("Try to Save the Cat with Shortest Path!")
 screen = pygame.display.set_mode((900, 720))
  
 clock = pygame.time.Clock()

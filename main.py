@@ -12,7 +12,7 @@ pygame.display.set_caption("Menu")
 BG = pygame.image.load("asset/main_menu.png")
     
 def run_game(level_code):
-    subprocess.call(["python", level_code])
+    subprocess.call([sys.executable, level_code])
 
 def exit_confirmation():
     while True:

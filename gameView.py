@@ -111,7 +111,8 @@ def win_page():
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if WIN_BACK.checkForInput(WIN_MOUSE_POS):
-                    main_menu()
+                    pygame.quit()
+                    sys.exit()
 
         pygame.display.update()
         
@@ -134,7 +135,8 @@ def lose_page():
                 sys.exit()
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if LOSE_BACK.checkForInput(LOSE_MOUSE_POS):
-                    main_menu()
+                    pygame.quit()
+                    sys.exit()
 
         pygame.display.update()
             
